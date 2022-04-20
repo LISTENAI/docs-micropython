@@ -2,7 +2,7 @@
   "chips/micropython/index",
   {
     "type": "category",
-    "label": "MicroPython 应用开发",
+    "label": "应用开发",
     "items": [{
         "type": "category",
         "label": "快速开始",
@@ -37,7 +37,7 @@
   },
   {
     "type": "category",
-    "label": "lisa micropython",
+    "label": "命令行工具",
     "items": [
       "chips/micropython/lisa_plugin_mpy/index",
       "chips/micropython/lisa_plugin_mpy/install",
