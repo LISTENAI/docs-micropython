@@ -1,0 +1,50 @@
+[
+  "index",
+  {
+    "type": "category",
+    "label": "应用开发",
+    "items": [{
+        "type": "category",
+        "label": "快速开始",
+        "items": [
+          "micropython_app_dev/install",
+          "micropython_app_dev/start",
+          "micropython_app_dev/run",
+          "micropython_app_dev/bundle_program"
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "高级",
+        "items": [
+          "micropython_app_dev/advance/display",
+          "micropython_app_dev/advance/mixed_program"
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "常见问题",
+        "items": [
+          "micropython_app_dev/faq/file_system",
+          "micropython_app_dev/faq/memory"
+        ],
+        "collapsed": true
+      }
+    ],
+    "collapsed": true
+  },
+  {
+    "type": "category",
+    "label": "命令行工具",
+    "items": [
+      "lisa_plugin_mpy/index",
+      "lisa_plugin_mpy/install",
+      "lisa_plugin_mpy/commands",
+      "lisa_plugin_mpy/versions",
+      "lisa_plugin_mpy/faq"
+    ],
+    "collapsed": true
+  }
+]
