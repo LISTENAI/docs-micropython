@@ -1,8 +1,6 @@
 name: push_main_doc
 
 on:
-  pull_request:
-    branches: [master]
   push:
     branches: [master]
 
@@ -44,7 +42,8 @@ jobs:
           git add ${{ steps.find-submodule.outputs.submodule_path }}
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git commit -m "actions: Update $GITHUB_REPOSITORY to $GITHUB_SHA"
+          short_sha=${GITHUB_SHA:0:8}
+          git commit -m "actions: Update $GITHUB_REPOSITORY to $short_sha"
       - name: "[Main Doc] Push changes"
         run: |
           cd ~/lsopenweb/
