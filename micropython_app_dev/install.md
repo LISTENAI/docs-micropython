@@ -4,7 +4,7 @@
 
 作为 Zephyr 应用的一种表现形式，进行 MicroPython 应用开发前同样需要安装完整的 Zephyr 相关工具。
 
-请参考 [快速开始-安装开发环境](../../600X/快速开始/start_env) 进行对应配置，若已配置完成，则直接进入下一步。
+请参考 [快速开始-安装开发环境](https://docs.listenai.com/chips/600X/quick_start/start_env) 进行对应配置，若已配置完成，则直接进入下一步。
 
 ## 安装 Lisa MicroPython 插件
 
