@@ -233,3 +233,26 @@ print()
 ```bash
 lisa mpy reset
 ```
+
+## 安装 Python 库
+
+你可以通过 `lisa mpy` 命令来安装 Python 库到项目文件系统目录下
+```bash
+lisa mpy pip:install <packages>...
+```
+
+例如安装 urllib.urequest
+```bash
+lisa mpy pip:install micropython-urllib.urequest
+```
+
+安装完毕后，你可以通过 `lisa mpy flash --fs` 命令将该库烧录到固件的文件系统上，接着你就可以通过 `import <packages>` 来调用该库了。
+
+```pip:install``` 可以安装一个或者多个库。
+
+## 删除 Python 库
+
+```bash
+lisa mpy pip:uninstall <package>...
+```
+`pip:uninstall` 可以删除一个或者多个库。
