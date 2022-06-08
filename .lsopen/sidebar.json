@@ -25,6 +25,7 @@
     "label": "高级",
     "items": [
       "micropython_app_dev/advance/display",
+      "micropython_app_dev/advance/frozen_module",
       "micropython_app_dev/advance/mixed_program"
     ],
     "collapsed": true
