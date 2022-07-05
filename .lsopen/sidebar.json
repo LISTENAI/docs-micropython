@@ -41,6 +41,8 @@
     "type": "category",
     "label": "常见问题",
     "items": [
+      "micropython_app_dev/faq/sdk",
+      "micropython_app_dev/faq/build",
       "micropython_app_dev/faq/file_system",
       "micropython_app_dev/faq/memory"
     ],
